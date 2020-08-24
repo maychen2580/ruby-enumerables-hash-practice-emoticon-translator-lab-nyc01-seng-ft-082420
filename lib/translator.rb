@@ -1,5 +1,6 @@
 # require modules here
 require "yaml"
+require 'pry'
 
 
 
@@ -17,6 +18,11 @@ end
 
 def get_japanese_emoticon
   # code goes here
+  librayry = load_library(file_path)
+emoticons = librayry.find do |key|
+    
+  
+  
 end
 
 def get_english_meaning
